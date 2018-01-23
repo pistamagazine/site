@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+   <meta charset = "UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <script>
+           $(function() {
+               $( ".outsoon").draggable();
+           });
+           </script>
+
+           <script language="javascript">
+           function toggle() {
+           	var ele = document.getElementById("toggleText");
+           	var text = document.getElementById("displayText");
+           	if(ele.style.display == "block") {
+               		ele.style.display = "none";
+           		text.innerHTML = "ABOUT";
+             	}
+           	else {
+           		ele.style.display = "block";
+           		text.innerHTML = "ABOUT";
+           	}
+           }
+           </script>
+
+</head>
+
+
+<body>
+
+  <!--  Content  -->
+
+  <!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
+    <div class="video-background">
+        <div class="video-foreground">
+          <iframe src="https://www.youtube.com/embed/8hfyR72Jw4k?rel=0&amp;controls=0&amp;showinfo=0&loop=1&autoplay=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+<div class="box1">
+  <div class="imglinks">
+  <a href="https://www.facebook.com/PISTA-1267610633354458/"><img src="fb.jpg" width="60%" hspace="10"></img></a>
+  <a href="https://twitter.com/pista_mag"><img src="twt.jpg" width="60%" hspace="10"></img></a>
+  <a href="https://www.instagram.com/pista.mag/"><img src="ig.png" width="60%" hspace="10"></img></a>
+  </div>
+
+
+  <div class="about">
+    <div class="abouttitle">
+      <a id="displayText" href="javascript:toggle();">ABOUT<br></a>
+<div id="toggleText" style="display: none"><br>PISTA! é uma revista que procura acompanhar a criação de música contemporânea em Portugal, analisando ao mesmo tempo os demais assuntos que gravitam em torno da cultura de clube nacional.
+<br><br>
+<i>PISTA! is a magazine set to follow and document the creation of contemporary music in Portugal, while casting a look on all those issues that gravitate around national club culture.</div>
+</i></div>
+
+</div>
+
+  <div class="mainpista">
+    <div class="mainpistatitle">
+    PISTA!
+  </div>
+    <br>
+    <div class="mainpistatext">
+para mais informações <div class="mainpistaline">acerca de entervistas, artistas e produtores, editoras, gigs, </div>ou publicidade, contacte <div id="mainpistamail"><a href="mailto:pista.magazine@gmail.com">pista.magazine@gmail.com</a></div><br>
+<i>for general inquire <div class="mainpistaline">about music interviews, artists and producers, labels, gigs, </div>or publicity please contact <div id="mainpistamail"><a href="mailto:pista.magazine@gmail.com">pista.magazine@gmail.com</a></i></div><br>
+
+</div>
+</div>
+</div>
+<div id="draggable" class="outsoon">
+OUT SOON!
+</div>
+</div>
+
+</body>

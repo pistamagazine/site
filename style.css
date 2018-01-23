@@ -1,0 +1,259 @@
+body {
+background: blue;
+font-family: sans-serif;
+text-decoration: none;
+}
+
+
+/* video youtube as full background */
+/* credits: https://gist.github.com/forksofpower/525df34e25e1423919f3afb402630834 */
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+#vidtop-content {
+	top: 0;
+	color: #fff;
+}
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+
+
+
+@media screen and (min-width: 480px){
+/* The only rule that matters */
+
+
+/* These just style the content */
+article {
+/*  just a fancy border  */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  margin: 10px;
+}
+
+h1 {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  text-align: center;
+}
+
+h1 span {
+  font-family: sans-serif;
+  letter-spacing: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1 span a {
+  color: #fff;
+}
+
+
+.box1{
+  position: fixed;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  padding: 1%;
+}
+
+.outsoon{
+  position: fixed;
+  margin-top: 0%;
+  color: #00ff00;
+  background-color: rgba(201, 76, 76, 0);
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1500%;
+  padding: 1%;
+  margin-left: 0%;
+  cursor: move;
+  width: 40%;
+}
+
+  #draggable {  }
+
+
+.about{
+float: left;
+position: absolute;
+margin-top: 20%;
+margin-left: 1%;
+color: black;
+width: 45%;
+padding: 2%;
+font-size: 100%;
+background-color: white;
+color: #000000;
+font-family: serif;
+-webkit-box-shadow: 20px 20px 0px 5px rgba(0,0,0,1);
+-moz-box-shadow: 20px 20px 0px 5px rgba(0,0,0,1);
+box-shadow: 20px 20px 0px 5px rgba(0,0,0,1);
+}
+
+.abouttitle{
+  font-size: 150%;
+  margin-top: 0%;
+  margin-left: 0%;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.mainpista{
+  float: none;
+  font-size: 100%;
+  position: absolute;
+  width: 35%;
+  margin-left: 55%;
+  margin-top: 30%;
+  background-color: #ffffff;
+  color: #000000;
+  border-width: 10px;
+  border-style: double;
+  border-color: #000000;
+  padding: 1%;
+  -webkit-box-shadow: 20px 20px 0px 5px rgba(0,0,0,1);
+  -moz-box-shadow: 20px 20px 0px 5px rgba(0,0,0,1);
+  box-shadow: 20px 20px 0px 5px rgba(0,0,0,1);
+}
+
+.mainpistatitle{
+  font-size: 500%;
+  margin-top: 0%;
+  margin-left: 0%;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.mainpistatext{
+  display:inline;
+  font-size: 100%;
+  color: #707070;
+  font-family: serif;
+  text-decoration: none;
+}
+
+.mainpistaline{
+  display:inline;
+  text-decoration: line-through;
+}
+
+#mainpistamail{
+  display:inline;
+  color: red;
+}
+
+.imglinks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 10%;
+  background-color: white;
+  margin-top: 0%;
+  margin-left: 64%;
+  padding: 1%;
+  -webkit-box-shadow: 20px 20px 0px 5px rgba(0,0,0,1);
+  -moz-box-shadow: 20px 20px 0px 5px rgba(0,0,0,1);
+  box-shadow: 20px 20px 0px 5px rgba(0,0,0,1);
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: red;
+    text-decoration: none;
+}
+
+#displayText{
+  text-decoration: none;
+}
+
+#toggleText{
+  text-decoration: none;
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+
+    }
+
+    .outsoon{
+      font-size: 1000%;
+        margin-top: 80%;
+    }
+
+    .mainpista{
+      font-size: 95%;
+    }
+
+    .mainpistatitle{
+      font-size: 250%;
+    }
+
+    .about{
+    font-size: 80%;
+    }
+
+    .imglinks{
+      width: 15%;
+    }
+
+}
