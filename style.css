@@ -237,11 +237,14 @@ a:active {
 
     .outsoon{
       font-size: 1000%;
-        margin-top: 80%;
+      margin-top: 20%;
     }
 
     .mainpista{
-      font-size: 95%;
+      font-size: 150%;
+      margin-top: 80%;
+      margin-left: 0%;
+      width: 85%;
     }
 
     .mainpistatitle{
@@ -249,11 +252,16 @@ a:active {
     }
 
     .about{
-    font-size: 80%;
+    font-size: 100%;
+    margin-top: 120%;
+    width: 85%;
     }
 
     .imglinks{
-      width: 15%;
+      width: 45%;
+      margin-top: 0%;
+      margin-left: 15%;
+      text-align: center;
     }
 
 }
