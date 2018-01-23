@@ -245,9 +245,9 @@ a:active {
 
     .mainpista{
       position: relative;
-      font-size: 200%;
-      margin-left: 0%;
-      width: 85%;
+      font-size: 220%;
+      margin-left: -5%;
+      width: 100%;
     }
 
     .mainpistatitle{
@@ -257,7 +257,8 @@ a:active {
     .about{
     position: relative;
     font-size: 170%;
-    width: 85%;
+    width: 100%;
+    margin-left: -5%;
     }
 
     .imglinks{
