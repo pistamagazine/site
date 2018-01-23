@@ -106,7 +106,7 @@ h1 span a {
   width: 40%;
 }
 
-#draggable {  }
+  #draggable {  }
 
 
 .about{
@@ -228,7 +228,7 @@ a:active {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     body {
     }
 
@@ -266,5 +266,4 @@ a:active {
       margin-left: 15%;
       text-align: center;
     }
-
 }
