@@ -3,8 +3,6 @@ background: blue;
 font-family: sans-serif;
 text-decoration: none;
 }
-
-
 /* video youtube as full background */
 /* credits: https://gist.github.com/forksofpower/525df34e25e1423919f3afb402630834 */
 .video-background {
@@ -234,14 +232,20 @@ a:active {
     body {
     }
 
+    .box1{
+      position: relative;
+    }
+
     .outsoon{
+      position: relative;
       font-size: 1000%;
       margin-top: 20%;
+      padding-top: 10%;
     }
 
     .mainpista{
+      position: relative;
       font-size: 150%;
-      margin-top: 80%;
       margin-left: 0%;
       width: 85%;
     }
@@ -251,8 +255,8 @@ a:active {
     }
 
     .about{
+    position: relative;
     font-size: 100%;
-    margin-top: 120%;
     width: 85%;
     }
 
