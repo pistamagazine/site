@@ -245,7 +245,7 @@ a:active {
 
     .mainpista{
       position: relative;
-      font-size: 150%;
+      font-size: 200%;
       margin-left: 0%;
       width: 85%;
     }
@@ -256,7 +256,7 @@ a:active {
 
     .about{
     position: relative;
-    font-size: 100%;
+    font-size: 170%;
     width: 85%;
     }
 
@@ -266,5 +266,4 @@ a:active {
       margin-left: 15%;
       text-align: center;
     }
-
 }
