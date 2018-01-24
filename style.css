@@ -93,7 +93,7 @@ h1 span a {
   position: fixed;
   margin-top: 0%;
   color: #00ff00;
-  background-color: rgba(201, 76, 76, 0);
+  background-color: rgba(60, 213, 46, 0);
   font-family: sans-serif;
   font-weight: bold;
   text-decoration: underline;
@@ -222,6 +222,7 @@ a:active {
 #toggleText{
   text-decoration: none;
 }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -263,4 +264,5 @@ a:active {
       margin-left: 15%;
       text-align: center;
     }
+
 }
