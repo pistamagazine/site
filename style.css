@@ -109,7 +109,7 @@ h1 span a {
 .about{
 float: left;
 position: absolute;
-margin-top: 20%;
+margin-top: 15%;
 margin-left: 1%;
 color: black;
 width: 45%;
@@ -224,6 +224,7 @@ a:active {
 }
 
 }
+
 
 @media screen and (max-width: 1000px) {
     body {
